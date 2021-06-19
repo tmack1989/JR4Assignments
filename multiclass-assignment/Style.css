@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 .headerDiv {
     width: 45%;
     display: inline-block;
@@ -51,17 +54,8 @@
   #content2 {
     flex: 50%;
   }
-  .clients-03__list {
-  padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
+  .four-columns {
+    display:flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.clients-03__item {
-  margin: 0 30px 40px;
-  li {
-    text-align: -webkit-match-parent;
-}
+    padding: 2em;
+  }
